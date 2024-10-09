@@ -11,26 +11,26 @@
 
 <body>
     <header>
-        <nav class="bg-white border-gray-500 nav-bar col-span-12">
-            <div class="nav-bar-title justify-between">
+        <nav class="bg-white border-gray-500 nav-bar items-center justify-between md:grid-cols-1 p-4">
+            <div class="nav-bar-title flex items-center w-full sm:w-auto">
                 <a href="#" class="flex items-center">
-                    <img src="./Images/logo.jpg" class="nav-bar-logo" alt="Target Logo" />
+                    <img src="./Images/logo.jpg" class="nav-bar-logo h-8 w-8 mr-2" alt="Target Logo" />
                     <span class="self-center font-semibold whitespace-nowrap text-red-500">Target</span>
                 </a>
-                <div class="text-gray-500 nav-bar-subtitle">Premium lading page template</div>
+                <div class="text-gray-500 nav-bar-subtitle">Premium landing page template</div>
             </div>
             <div class="text-red-500 nav-bar-callnow">
                 Call Now! 1-800-123-456
             </div>
         </nav>
     </header>
-    <section class="grid grid-cols-2">
+    <section class="grid md:grid-cols-2 gap-4 p-4">
         <div class="introduction">
-            <h1 class="title">The perfect way to convert<br>you traffic into sales</h1>
+            <h1 class="title">The perfect way to convert<br>your traffic into sales</h1>
             <p class="max-w-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed
                 cum accusamus vero laudantium deserunt temporibus impedit.</p>
             <p>Est doloribus suscipit obcaecati aliquam cupiditate quod alias delectus, explicabo quasi?</p>
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap gap-2 mt-4">
                 <button class="bg-orange-600 text-white font-semibold py-2 px-4 rounded-full hover:bg-orange-700">
                     Purchase now
                 </button>
@@ -40,7 +40,7 @@
                 </button>
             </div>
         </div>
-        <div class="image-container">
+        <div class="image-container items-center gap-4">
             <button class="arrow-left arrow">
                 <svg class="h-12 w-12 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -48,7 +48,7 @@
                 </svg>
             </button>
             <img src="./Images/avatar.jpg" alt="Avatar">
-            <button class="arrow arrow-right">
+            <button class="arrow-right arrow">
                 <svg class="h-12 w-12 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -56,61 +56,51 @@
             </button>
         </div>
     </section>
-    <section class="grid grid-cols-3 characteristic-container">
-        <flex class="col-span-1">
-            <div class="flex flex-row">
-
-                <svg class="text-neutral-300 svg-icon" viewBox="0 0 30 70" fill="none" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <div class="h3-p">
-                    <h3>Quick and easy</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed cum
-                        accusamus vero laudantium deserunt temporibus impedit.</p>
-                </div>
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 characteristic-container">
+        <div class="col-span-1 flex flex-row items-start">
+            <svg class="text-neutral-300 svg-icon h-36 w-36 mr-4" viewBox="0 0 30 70" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <div class="h3-p">
+                <h3>Quick and easy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed cum
+                    accusamus vero laudantium deserunt temporibus impedit.</p>
             </div>
-        </flex>
-        <flex class="col-span-1">
-            <div class="flex flex-row">
-
-                <svg class="text-neutral-300 svg-icon " viewBox="0 0 30 70" stroke-width="2" stroke="currentColor" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" />
-                    <rect x="4" y="4" width="16" height="4" rx="1" />
-                    <rect x="4" y="12" width="6" height="8" rx="1" />
-                    <line x1="14" y1="12" x2="20" y2="12" />
-                    <line x1="14" y1="16" x2="20" y2="16" />
-                    <line x1="14" y1="20" x2="20" y2="20" />
-                </svg>
-
-                <div class="h3-p">
-                    <h3>Less ricky</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed cum
-                        accusamus vero laudantium deserunt temporibus impedit.</p>
-                </div>
+        </div>
+        <div class="col-span-1 flex flex-row items-start">
+            <svg class="text-neutral-300 svg-icon h-36 w-36 mr-4" viewBox="0 0 30 70" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <rect x="4" y="4" width="16" height="4" rx="1" />
+                <rect x="4" y="12" width="6" height="8" rx="1" />
+                <line x1="14" y1="12" x2="20" y2="12" />
+                <line x1="14" y1="16" x2="20" y2="16" />
+                <line x1="14" y1="20" x2="20" y2="20" />
+            </svg>
+            <div class="h3-p">
+                <h3>Less risky</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed cum
+                    accusamus vero laudantium deserunt temporibus impedit.</p>
             </div>
-        </flex>
-        <flex class="col-span-1">
-            <div class="flex flex-row">
-
-                <svg class="text-neutral-300 svg-icon" viewBox="0 0 30 70" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10" />
-                    <polyline points="12 6 12 12 16 14" />
-                </svg>
-
-                <div class="h3-p">
-                    <h3>Optimized</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed cum
-                        accusamus vero laudantium deserunt temporibus impedit.</p>
-                </div>
+        </div>
+        <div class="col-span-1 flex flex-row items-start">
+            <svg class="text-neutral-300 svg-icon h-36 w-36 mr-4" viewBox="0 0 30 70" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <div class="h3-p">
+                <h3>Optimized</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, neque nobis sed cum
+                    accusamus vero laudantium deserunt temporibus impedit.</p>
             </div>
-        </flex>
+        </div>
     </section>
-
-    <section class="grid grid-cols-2 h3-p">
-        <h3 class="col-span-2">Checkout the features</h3>
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 h3-p">
+        <h3 class="col-span-1 sm:col-span-2">
+            Checkout the features
+        </h3>
         <div class="mr-3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, amet nihil. Eum eos quasi repellendus
                 consectetur iste dolorum dolor sequi blanditiis hic explicabo veritatis eius, perferendis, repellat
@@ -118,9 +108,8 @@
             <p>Eum eos quasi repellendus consectetur iste dolorum dolor sequi blanditiis hic explicabo veritatis eius,
                 perferendis, repellat aliquam exercitationem ex.</p>
         </div>
-        <div class="feature-container ">
-
-            <div class="flex flex-row">
+        <div class="feature-container flex flex-col gap-4">
+            <div class="flex flex-row items-center">
                 <button>
                     <svg class="h-6 w-6 text-neutral-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                         fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -131,10 +120,9 @@
                         <line x1="16" y1="12" x2="12" y2="8" />
                     </svg>
                 </button>
-                <p>Lorem ipsum dolor, sit amet consectetur adi</p>
+                <p class="ml-2">Lorem ipsum dolor, sit amet consectetur adi</p>
             </div>
-
-            <div class="flex flex-row">
+            <div class="flex flex-row items-center">
                 <button>
                     <svg class="h-6 w-6 text-neutral-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                         fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -145,10 +133,9 @@
                         <line x1="16" y1="12" x2="12" y2="8" />
                     </svg>
                 </button>
-                <p>Lorem ipsum dolor, sit amet consectetur adi</p>
+                <p class="ml-2">Lorem ipsum dolor, sit amet consectetur adi</p>
             </div>
-
-            <div class="flex flex-row">
+            <div class="flex flex-row items-center">
                 <button>
                     <svg class="h-6 w-6 text-neutral-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                         fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -159,10 +146,9 @@
                         <line x1="16" y1="12" x2="12" y2="8" />
                     </svg>
                 </button>
-                <p>Lorem ipsum dolor, sit amet consectetur adi</p>
+                <p class="ml-2">Lorem ipsum dolor, sit amet consectetur adi</p>
             </div>
-
-            <div class="flex flex-row">
+            <div class="flex flex-row items-center">
                 <button>
                     <svg class="h-6 w-6 text-neutral-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
                         fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -173,27 +159,27 @@
                         <line x1="16" y1="12" x2="12" y2="8" />
                     </svg>
                 </button>
-                <p>Lorem ipsum dolor, sit amet consectetur adi</p>
+                <p class="ml-2">Lorem ipsum dolor, sit amet consectetur adi</p>
             </div>
-
         </div>
     </section>
 
-    <section class="grid grid-cols-4 h3-p">
-        <h3 class="col-span-4">
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4 h3-p">
+        <h3 class="col-span-1 sm:col-span-2 md:col-span-4">
             The screenshots
         </h3>
         <div class="screenshot">
-            <image src="./Images/screenshot1.jpg" alt="Screenshot 1" />
+            <img src="./Images/screenshot1.jpg" alt="Screenshot 1" class="w-full h-auto">
         </div>
         <div class="screenshot">
-            <image src="./Images/screenshot2.jpg" alt="Screenshot 2" />
+            <img src="./Images/screenshot2.jpg" alt="Screenshot 2" class="w-full h-auto">
         </div>
         <div class="screenshot">
-            <image src="./Images/screenshot3.jpg" alt="Screenshot 3" />
+            <img src="./Images/screenshot3.jpg" alt="Screenshot 3" class="w-full h-auto">
         </div>
         <div class="screenshot">
-            <image src="./Images/screenshot4.jpg" alt="Screenshot 4" />
+            <img src="./Images/screenshot4.jpg" alt="Screenshot 4" class="w-full h-auto">
         </div>
     </section>
 
